@@ -15,4 +15,4 @@ def main():
             mouse.move(int(currentmonitor[0])+1, int(currentmonitor[1])+1)
             os.system(f"i3-msg workspace hidden{i}")
     mouse.move(xmouse[0], xmouse[1])
-
+main()
